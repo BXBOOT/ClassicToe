@@ -1,0 +1,29 @@
+.center-container {
+    width: 608px; /*width of the container*/
+    margin: 0 auto; /*centers container*/
+    margin-top: 50px; /*creates space at tp of the page for container*/
+}
+
+table {
+    border-collapse: collapse;
+    border-style: hidden;/*hides the uter borders on table*/
+}
+
+td {
+    cursor: pointer; /*changes to a poiter from default*/
+    border: 4px solid rgba(187, 135, 31, 0.8); /*set border style*/
+    padding: 0px;
+    width:  200px;
+    height: 200px;
+}
+
+canvas {
+    position: absolute; /*sets position of the grid to top left corner of the container*/
+    z-index: 10; /*puts canvas over top of our table*/
+    pointer-events: none;
+}
+
+header {
+    font-size: xx-large;
+    text-align: center;
+}
